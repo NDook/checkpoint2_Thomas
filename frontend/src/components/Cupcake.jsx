@@ -52,6 +52,7 @@ Cupcake.propTypes = {
     color2: PropTypes.string.isRequired,
     color3: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired,
   }),
 };
 
@@ -62,5 +63,6 @@ Cupcake.defaultProps = {
     color2: "var(--default-cream-color)",
     color3: "var(--default-cream-color)",
     name: "",
+    id: 0,
   },
 };
